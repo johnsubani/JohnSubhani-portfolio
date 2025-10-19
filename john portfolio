@@ -1,0 +1,244 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Subhani Pathan - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+  <!-- HEADER SECTION -->
+  <header id="header-section" class="hero">
+    <img src="asserts/john.jpeg" alt="John Subhani Pathan" class="profile-img">
+
+    <div class="intro">
+      <h1>John Subhani Pathan</h1>
+      <h2>Data Analyst | Information Technology</h2>
+      <p>Analytical and detail-oriented Data Analyst with experience in data visualization, reporting, and machine learning.</p>
+      <div class="social-links">
+        <a href="mailto:Johnsubhani542@gmail.com">Email</a>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+      </div>
+    </div>
+  
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+ </header>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:Johnsubhani542@gmail.com">Johnsubhani542@gmail.com</a></p>
+    <p>Phone: (502) 438-3703</p>
+  </section>
+<section id="experience" class="experience-section">
+    <h2>Professional Experience</h2>
+    <div class="job">
+      <h3>Data Analyst Intern — Office of Academic Affairs, Lindsey Wilson College</h3>
+      <p><em>Jan 2024  Apr 2024</em></p>
+      <ul>
+        <li>Conducted data entry, quality checks, and reporting for academic scheduling and faculty management.</li>
+        <li>Created Excel dashboards to visualize department performance and meeting timelines.</li>
+        <li>Automated report generation using Python scripts and Excel macros to reduce manual tasks by 30%.</li>
+        <li>Collaborated with administrative staff to organize, analyze, and visualize department KPIs.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>Office Support Assistant — Student Services, Lindsey Wilson College</h3>
+      <p><em>Jun 2023  Dec 2023</em></p>
+      <ul>
+        <li>Processed and analyzed student orientation data and feedback using Excel and Power BI.</li>
+        <li>Compiled weekly and monthly performance reports to support decision-making.</li>
+        <li>Improved efficiency by redesigning reporting templates and automating recurring documentation.</li>
+      </ul>
+    </div>
+  </section>
+<!-- PROJECTS SECTION -->
+  <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-item">
+        <h3>Administrative & Budget Dashboard</h3>
+        <p>Designed Excel-based dashboard to monitor meetings, project deadlines, and spending with dynamic KPIs.</p>
+      </div>
+      <div class="project-item">
+        <h3>Sales Data Analytics (Mini Project)</h3>
+        <p>Analyzed sales dataset using Python & SQL; built interactive Power BI visualization to highlight revenue trends and product performance.</p>
+      </div>
+    </div>
+  </section>
+ <section class="skills-section">
+    <h2>Core Technical Skills</h2>
+    <ul>
+      <li><strong>Programming & Analytics:</strong> Python (Pandas, NumPy, Matplotlib, Seaborn), R, SQL, Excel</li>
+      <li><strong>Data Visualization:</strong> Power BI, Tableau, Looker Studio, Excel Dashboards</li>
+      <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, Firebase</li>
+      <li><strong>Data Tools & Platforms:</strong> Google Colab, Jupyter Notebook, VS Code, Power Query</li>
+      <li><strong>Other Tools:</strong> MS Office Suite, Google Workspace, ETL Pipelines</li>
+    </ul>
+  </section>
+<!-- ABOUT SECTION -->
+  <section class="about-section">
+    <h2>Education</h2>
+    <p><strong>Master of Science in Information Technology</strong>, Lindsey Wilson College, Columbia, KY — Expected May 2025</p>
+    <p><strong>Bachelor of Computer Science & Engineering</strong>, Narasaraopet Engineering College, India — Aug 2022</p>
+  </section>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #007acc;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+nav {
+  background: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+section h2 {
+  color: #007acc;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.hero {
+  background: linear-gradient(135deg, #007acc, #005b99);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.intro h1 {
+  font-size: 2rem;
+  margin: 10px 0 5px 0;
+}
+
+.intro h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #cce7ff;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  max-width: 600px;
+  margin: 0 auto 15px auto;
+  color: #e3f1ff;
+}
+
+.social-links a {
+  background: white;
+  color: #007acc;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 0 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  background: #cce7ff;
+}
+
+@media (max-width: 600px) {
+  .intro h1 { font-size: 1.5rem; }
+  .intro h2 { font-size: 1rem; }
+  .profile-img { width: 120px; height: 120px; }
+}
+/* ---------- NAVBAR ---------- */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #005b99;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 6px 10px;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background: #007acc;
+  border-radius: 5px;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
